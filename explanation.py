@@ -33,5 +33,7 @@ This simulation illustrates the behavior of Polya's Urn.
 the initial numbers of white and black balls are a and b respectively, then this histogram converges to (a good approximation) of
 the Beta(a,b) distribution, appropriately rescaled.
 </ul>
+[The code that generates this app is here.](https://github.com/jet08013/Polya.git)
+<br><br>
 To use the simulation, choose your initial number of black and white balls and push Go!
 """
