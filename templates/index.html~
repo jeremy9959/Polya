@@ -1,0 +1,14 @@
+{% extends base %}
+
+{% block head %}
+<head>
+</head>
+{% endblock %}
+
+{% block body %}
+<body>
+  <div> {{ embed(roots.T) }} </div>
+</body>
+{% endblock %}
+
+

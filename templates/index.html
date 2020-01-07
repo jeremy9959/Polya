@@ -1,0 +1,41 @@
+{% extends base %}
+
+{% block preamble %}
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+
+{% endblock %}
+
+{% block contents %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12" align="center">
+      <h3> Polya Urn Simulation </h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+    </div>
+    <div class="col-md-4" align="center">
+      {{ embed(roots.T) }}
+    </div>
+    <div class="col-md-4">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4" align="left">
+      {{ embed(roots.E) }}
+    </div>
+    <div class="col-md-4" align="center">
+      {{ embed(roots.S) }}
+    </div>
+    <div class="col-md-4" align="left">
+      {{ embed(roots.E2) }}
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+
