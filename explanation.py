@@ -31,7 +31,7 @@ This simulation illustrates the behavior of Polya's Urn.
 50 draws.  
 <li> The upper graph accumulates a histogram of the relative number of times the urn has k white balls in it after 50 draws.  If
 the initial numbers of white and black balls are a and b respectively, then this histogram converges to (a good approximation) of
-the Beta distribution, appropriately rescaled.
+the Beta(a,b) distribution, appropriately rescaled.
 </ul>
 To use the simulation, choose your initial number of black and white balls and push Go!
 """
